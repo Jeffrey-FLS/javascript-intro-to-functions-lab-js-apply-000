@@ -1,5 +1,5 @@
-//let string = "hello world";
-let string = "HELLO WORLD";
+let string = "hello world";
+//let string = "HELLO WORLD";
 
 function shout(string) {
   return string.toUpperCase()
