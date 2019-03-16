@@ -1,5 +1,5 @@
-let string = "hello world";
-let upperCaseString = "HELLO WORLD";
+//let string = "hello world";
+let string = "HELLO WORLD";
 
 function shout(string) {
   return string.toUpperCase()
@@ -18,7 +18,7 @@ function logWhisper(string) {
   console.log(whisper(string));
 }
 
-function sayHiToGrandma(string, upperCaseString) {
+function sayHiToGrandma(string) {
   if (string.toLowerCase) {
     return "I can't hear you!";
   } else if (upperCaseString.toUpperCase) {
